@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C63D92859024F00F1C301 /* AppDelegate.swift */; };
+		211C63DC2859024F00F1C301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C63DB2859024F00F1C301 /* SceneDelegate.swift */; };
+		211C63DE2859024F00F1C301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C63DD2859024F00F1C301 /* ViewController.swift */; };
+		211C63E12859024F00F1C301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211C63DF2859024F00F1C301 /* Main.storyboard */; };
+		211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 211C63E22859024F00F1C301 /* bedderApp.xcdatamodeld */; };
+		211C63E62859025000F1C301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211C63E52859025000F1C301 /* Assets.xcassets */; };
+		211C63E92859025000F1C301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211C63E72859025000F1C301 /* LaunchScreen.storyboard */; };
+		211C63F42859025000F1C301 /* bedderAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C63F32859025000F1C301 /* bedderAppTests.swift */; };
+		211C63FE2859025100F1C301 /* bedderAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C63FD2859025100F1C301 /* bedderAppUITests.swift */; };
+		211C64002859025100F1C301 /* bedderAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C63FF2859025100F1C301 /* bedderAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211C63F02859025000F1C301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211C63CE2859024E00F1C301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211C63D52859024F00F1C301;
+			remoteInfo = bedderApp;
+		};
+		211C63FA2859025100F1C301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211C63CE2859024E00F1C301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211C63D52859024F00F1C301;
+			remoteInfo = bedderApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		211C63D62859024F00F1C301 /* bedderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bedderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C63D92859024F00F1C301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		211C63DB2859024F00F1C301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		211C63DD2859024F00F1C301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		211C63E02859024F00F1C301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211C63E32859024F00F1C301 /* bedderApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = bedderApp.xcdatamodel; sourceTree = "<group>"; };
+		211C63E52859025000F1C301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211C63E82859025000F1C301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		211C63EA2859025000F1C301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211C63EF2859025000F1C301 /* bedderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bedderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C63F32859025000F1C301 /* bedderAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bedderAppTests.swift; sourceTree = "<group>"; };
+		211C63F92859025100F1C301 /* bedderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bedderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C63FD2859025100F1C301 /* bedderAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bedderAppUITests.swift; sourceTree = "<group>"; };
+		211C63FF2859025100F1C301 /* bedderAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bedderAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211C63D32859024F00F1C301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C63EC2859025000F1C301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C63F62859025100F1C301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211C63CD2859024E00F1C301 = {
+			isa = PBXGroup;
+			children = (
+				211C63D82859024F00F1C301 /* bedderApp */,
+				211C63F22859025000F1C301 /* bedderAppTests */,
+				211C63FC2859025100F1C301 /* bedderAppUITests */,
+				211C63D72859024F00F1C301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		211C63D72859024F00F1C301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211C63D62859024F00F1C301 /* bedderApp.app */,
+				211C63EF2859025000F1C301 /* bedderAppTests.xctest */,
+				211C63F92859025100F1C301 /* bedderAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		211C63D82859024F00F1C301 /* bedderApp */ = {
+			isa = PBXGroup;
+			children = (
+				211C63D92859024F00F1C301 /* AppDelegate.swift */,
+				211C63DB2859024F00F1C301 /* SceneDelegate.swift */,
+				211C63DD2859024F00F1C301 /* ViewController.swift */,
+				211C63DF2859024F00F1C301 /* Main.storyboard */,
+				211C63E52859025000F1C301 /* Assets.xcassets */,
+				211C63E72859025000F1C301 /* LaunchScreen.storyboard */,
+				211C63EA2859025000F1C301 /* Info.plist */,
+				211C63E22859024F00F1C301 /* bedderApp.xcdatamodeld */,
+			);
+			path = bedderApp;
+			sourceTree = "<group>";
+		};
+		211C63F22859025000F1C301 /* bedderAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				211C63F32859025000F1C301 /* bedderAppTests.swift */,
+			);
+			path = bedderAppTests;
+			sourceTree = "<group>";
+		};
+		211C63FC2859025100F1C301 /* bedderAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				211C63FD2859025100F1C301 /* bedderAppUITests.swift */,
+				211C63FF2859025100F1C301 /* bedderAppUITestsLaunchTests.swift */,
+			);
+			path = bedderAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211C63D52859024F00F1C301 /* bedderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C64032859025100F1C301 /* Build configuration list for PBXNativeTarget "bedderApp" */;
+			buildPhases = (
+				211C63D22859024F00F1C301 /* Sources */,
+				211C63D32859024F00F1C301 /* Frameworks */,
+				211C63D42859024F00F1C301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bedderApp;
+			productName = bedderApp;
+			productReference = 211C63D62859024F00F1C301 /* bedderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		211C63EE2859025000F1C301 /* bedderAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C64062859025100F1C301 /* Build configuration list for PBXNativeTarget "bedderAppTests" */;
+			buildPhases = (
+				211C63EB2859025000F1C301 /* Sources */,
+				211C63EC2859025000F1C301 /* Frameworks */,
+				211C63ED2859025000F1C301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211C63F12859025000F1C301 /* PBXTargetDependency */,
+			);
+			name = bedderAppTests;
+			productName = bedderAppTests;
+			productReference = 211C63EF2859025000F1C301 /* bedderAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		211C63F82859025100F1C301 /* bedderAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C64092859025100F1C301 /* Build configuration list for PBXNativeTarget "bedderAppUITests" */;
+			buildPhases = (
+				211C63F52859025100F1C301 /* Sources */,
+				211C63F62859025100F1C301 /* Frameworks */,
+				211C63F72859025100F1C301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211C63FB2859025100F1C301 /* PBXTargetDependency */,
+			);
+			name = bedderAppUITests;
+			productName = bedderAppUITests;
+			productReference = 211C63F92859025100F1C301 /* bedderAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211C63CE2859024E00F1C301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					211C63D52859024F00F1C301 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					211C63EE2859025000F1C301 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 211C63D52859024F00F1C301;
+					};
+					211C63F82859025100F1C301 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 211C63D52859024F00F1C301;
+					};
+				};
+			};
+			buildConfigurationList = 211C63D12859024E00F1C301 /* Build configuration list for PBXProject "bedderApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 211C63CD2859024E00F1C301;
+			productRefGroup = 211C63D72859024F00F1C301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				211C63D52859024F00F1C301 /* bedderApp */,
+				211C63EE2859025000F1C301 /* bedderAppTests */,
+				211C63F82859025100F1C301 /* bedderAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211C63D42859024F00F1C301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C63E92859025000F1C301 /* LaunchScreen.storyboard in Resources */,
+				211C63E62859025000F1C301 /* Assets.xcassets in Resources */,
+				211C63E12859024F00F1C301 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C63ED2859025000F1C301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C63F72859025100F1C301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211C63D22859024F00F1C301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C63DE2859024F00F1C301 /* ViewController.swift in Sources */,
+				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
+				211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */,
+				211C63DC2859024F00F1C301 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C63EB2859025000F1C301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C63F42859025000F1C301 /* bedderAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C63F52859025100F1C301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C64002859025100F1C301 /* bedderAppUITestsLaunchTests.swift in Sources */,
+				211C63FE2859025100F1C301 /* bedderAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211C63F12859025000F1C301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211C63D52859024F00F1C301 /* bedderApp */;
+			targetProxy = 211C63F02859025000F1C301 /* PBXContainerItemProxy */;
+		};
+		211C63FB2859025100F1C301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211C63D52859024F00F1C301 /* bedderApp */;
+			targetProxy = 211C63FA2859025100F1C301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		211C63DF2859024F00F1C301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211C63E02859024F00F1C301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		211C63E72859025000F1C301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211C63E82859025000F1C301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211C64012859025100F1C301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		211C64022859025100F1C301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		211C64042859025100F1C301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bedderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.bedderApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		211C64052859025100F1C301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bedderApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.bedderApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		211C64072859025100F1C301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.bedderAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bedderApp.app/bedderApp";
+			};
+			name = Debug;
+		};
+		211C64082859025100F1C301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.bedderAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bedderApp.app/bedderApp";
+			};
+			name = Release;
+		};
+		211C640A2859025100F1C301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.bedderAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bedderApp;
+			};
+			name = Debug;
+		};
+		211C640B2859025100F1C301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kode-with-Klossy.bedderAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bedderApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211C63D12859024E00F1C301 /* Build configuration list for PBXProject "bedderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C64012859025100F1C301 /* Debug */,
+				211C64022859025100F1C301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C64032859025100F1C301 /* Build configuration list for PBXNativeTarget "bedderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C64042859025100F1C301 /* Debug */,
+				211C64052859025100F1C301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C64062859025100F1C301 /* Build configuration list for PBXNativeTarget "bedderAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C64072859025100F1C301 /* Debug */,
+				211C64082859025100F1C301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C64092859025100F1C301 /* Build configuration list for PBXNativeTarget "bedderAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C640A2859025100F1C301 /* Debug */,
+				211C640B2859025100F1C301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		211C63E22859024F00F1C301 /* bedderApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				211C63E32859024F00F1C301 /* bedderApp.xcdatamodel */,
+			);
+			currentVersion = 211C63E32859024F00F1C301 /* bedderApp.xcdatamodel */;
+			path = bedderApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 211C63CE2859024E00F1C301 /* Project object */;
+}

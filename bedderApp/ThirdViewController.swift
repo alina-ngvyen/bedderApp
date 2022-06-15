@@ -12,30 +12,23 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var nameInput: UITextField!
     @IBOutlet weak var ageInput: UITextField!
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var fourthController = segue.destination as! FourthViewController
-        fourthController.userName = variable1
+    @IBAction func nextButton(_ sender: Any)
+    {
+        if nameInput.text != ""{
+           performSegue(withIdentifier: "segueThree", sender: self)
+        }
     }
-    
+    override func prepare(for segue:UIStoryboardSegue, sender: Any?)
+        {
+        var fourthController = segue.destination as! FourthViewController
+        fourthController.userName = nameInput.text!
+        }
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func nextButton(_ sender: Any) {
-        
+
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}

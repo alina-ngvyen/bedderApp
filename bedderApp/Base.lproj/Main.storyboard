@@ -130,7 +130,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nextButton:" destination="oY4-rP-l65" eventType="touchUpInside" id="f5z-ty-RUu"/>
-                                    <segue destination="eKl-rS-PId" kind="presentation" modalPresentationStyle="fullScreen" id="WAa-SE-ohQ"/>
+                                    <segue destination="eKl-rS-PId" kind="presentation" identifier="segueThree" modalPresentationStyle="fullScreen" id="WAa-SE-ohQ"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="type here" textAlignment="center" minimumFontSize="30" translatesAutoresizingMaskIntoConstraints="NO" id="tII-qC-VTs">
@@ -193,6 +193,9 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <buttonConfiguration key="configuration" style="tinted" title="The importance of sleep" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="importanceOfSleep:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="lSg-jG-VbH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgg-wE-wKR">
                                 <rect key="frame" x="18" y="284" width="393" height="100"/>
@@ -201,6 +204,9 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <buttonConfiguration key="configuration" style="tinted" title="How to fall asleep faster" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="fallAsleepFaster:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="WYh-Ct-pPu"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a topic to learn about!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23B-45-NpT">
                                 <rect key="frame" x="75" y="67" width="279" height="83"/>
@@ -228,6 +234,9 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <buttonConfiguration key="configuration" style="tinted" title="Tips for better sleep" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="betterSleepTips:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="39h-0U-org"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g8g-wy-XHV"/>

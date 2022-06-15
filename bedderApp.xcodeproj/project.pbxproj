@@ -99,7 +99,6 @@
 		211C63CD2859024E00F1C301 = {
 			isa = PBXGroup;
 			children = (
-				211C641E2859A43E00F1C301 /* homeViewController.swift */,
 				211C63D82859024F00F1C301 /* bedderApp */,
 				211C63F22859025000F1C301 /* bedderAppTests */,
 				211C63FC2859025100F1C301 /* bedderAppUITests */,
@@ -120,6 +119,7 @@
 		211C63D82859024F00F1C301 /* bedderApp */ = {
 			isa = PBXGroup;
 			children = (
+				211C641E2859A43E00F1C301 /* homeViewController.swift */,
 				211C63D92859024F00F1C301 /* AppDelegate.swift */,
 				211C63DB2859024F00F1C301 /* SceneDelegate.swift */,
 				211C63DD2859024F00F1C301 /* ViewController.swift */,

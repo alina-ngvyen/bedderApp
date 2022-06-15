@@ -34,13 +34,8 @@
                                     <segue destination="LEz-Q7-KvW" kind="presentation" modalPresentationStyle="fullScreen" id="otd-pQ-OE9"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orionPose1" translatesAutoresizingMaskIntoConstraints="NO" id="Gkx-ui-BZd">
-                                <rect key="frame" x="-225" y="220" width="897" height="611"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mAV-GR-Rgr">
-                                <rect key="frame" x="42" y="44" width="345" height="314"/>
+                                <rect key="frame" x="42" y="23" width="345" height="314"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">welcome to bedder!
 my name's orion. you can call me o!</string>
@@ -49,6 +44,24 @@ my name's orion. you can call me o!</string>
                                 <color key="highlightedColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mhp-a3-BSl">
+                                <rect key="frame" x="132" y="813" width="164" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="skip" cornerStyle="medium">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                    <color key="baseForegroundColor" red="0.84705895190000002" green="0.84705883260000003" blue="0.84705883260000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="Vfd-2t-XLS"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="orionPose1" translatesAutoresizingMaskIntoConstraints="NO" id="Gkx-ui-BZd">
+                                <rect key="frame" x="-242" y="194" width="897" height="611"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -260,7 +273,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khK-f1-3oo">
-                                <rect key="frame" x="50" y="280" width="158" height="214"/>
+                                <rect key="frame" x="46" y="253" width="158" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60515941385119731" green="0.74323253700305392" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -275,7 +288,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNr-Mv-Ufi">
-                                <rect key="frame" x="227" y="280" width="158" height="214"/>
+                                <rect key="frame" x="223" y="253" width="158" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -290,7 +303,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nR-gk-GGz">
-                                <rect key="frame" x="50" y="512" width="158" height="214"/>
+                                <rect key="frame" x="46" y="485" width="158" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -305,7 +318,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7h-f3-m7F">
-                                <rect key="frame" x="227" y="512" width="158" height="214"/>
+                                <rect key="frame" x="223" y="485" width="158" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -319,8 +332,21 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     </segue>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QiU-jh-a1u">
+                                <rect key="frame" x="48" y="720" width="335" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="additional resources" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="MlX-gs-Cgk" kind="presentation" modalPresentationStyle="fullScreen" id="3vf-O0-dLa"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sleep better with bedder." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idm-En-708">
-                                <rect key="frame" x="42" y="78" width="345" height="314"/>
+                                <rect key="frame" x="42" y="51" width="345" height="314"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
@@ -348,6 +374,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                         <viewLayoutGuide key="safeArea" id="019-AP-LD3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fE3-ql-cZe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9P-rr-oxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -378,6 +405,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                         <viewLayoutGuide key="safeArea" id="Sx0-oQ-LJQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="F80-ha-rgQ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lx0-wi-qb9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -411,9 +439,9 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWW-Fu-5Nh">
-                                <rect key="frame" x="75" y="116" width="279" height="130"/>
+                                <rect key="frame" x="63" y="116" width="304" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">congratulations _____!
+                                <string key="text">congratulations Username!
 you're one step closer to beginning your sleep journey!</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
                                 <color key="textColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -459,7 +487,7 @@ you're one step closer to beginning your sleep journey!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wdX-2P-4GT"/>
+        <segue reference="Vfd-2t-XLS"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="house.circle.fill" catalog="system" width="128" height="121"/>

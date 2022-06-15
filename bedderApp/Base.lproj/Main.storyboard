@@ -268,7 +268,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VNr-Mv-Ufi">
                                 <rect key="frame" x="227" y="280" width="158" height="214"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="track" cornerStyle="medium">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>

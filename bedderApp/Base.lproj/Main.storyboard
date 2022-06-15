@@ -204,28 +204,17 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" preferredBehavioralStyle="pad" translatesAutoresizingMaskIntoConstraints="NO" id="825-pN-7Tb">
-                                <rect key="frame" x="20" y="158" width="393" height="100"/>
+                                <rect key="frame" x="20" y="252" width="393" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.91372555489999996" green="0.91372549530000002" blue="0.91372555489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <size key="titleShadowOffset" width="1" height="5"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="the importance of sleep" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="plain" title="sleep &amp; brain health" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
                                     <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="importanceOfSleep:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="lSg-jG-VbH"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgg-wE-wKR">
-                                <rect key="frame" x="18" y="284" width="393" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="How to fall asleep faster" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="fallAsleepFaster:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="WYh-Ct-pPu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJ3-S8-ofN">
@@ -241,10 +230,10 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdK-qF-Uhe">
-                                <rect key="frame" x="20" y="413" width="393" height="100"/>
+                                <rect key="frame" x="35" y="541" width="393" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Tips for better sleep" cornerStyle="capsule">
+                                <buttonConfiguration key="configuration" style="tinted" title="tips you can implement" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -258,6 +247,17 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qgg-wE-wKR">
+                                <rect key="frame" x="20" y="386" width="393" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="things you can do during the day" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="fallAsleepFaster:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="WYh-Ct-pPu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g8g-wy-XHV"/>
                         <color key="backgroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -316,7 +316,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="plan" cornerStyle="medium">
+                                <buttonConfiguration key="configuration" style="filled" title="routine" cornerStyle="medium">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="35"/>
                                     <color key="baseForegroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -383,6 +383,15 @@ about you, we'd like to ask you about your sleep habits.</string>
                     <view key="view" contentMode="scaleToFill" id="5mC-tD-fPw">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tracking sleep data table view controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hc9-By-wdM">
+                                <rect key="frame" x="63" y="87" width="303" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="019-AP-LD3"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -390,7 +399,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9P-rr-oxm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2899" y="939"/>
+            <point key="canvasLocation" x="2897.663551401869" y="938.8768898488122"/>
         </scene>
         <!--Plan View Controller-->
         <scene sceneID="zde-jk-dHl">
@@ -400,19 +409,12 @@ about you, we'd like to ask you about your sleep habits.</string>
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="bedtime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9f2-Pr-0qp">
-                                <rect key="frame" x="183" y="154" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="15" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="zrt-FN-8BK">
                                 <rect key="frame" x="0.0" y="203" width="428" height="162"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="wake up time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ii1-ZG-mBk">
-                                <rect key="frame" x="164" y="426" width="101" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="routine checklist table view controller" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9f2-Pr-0qp">
+                                <rect key="frame" x="73" y="81" width="283" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -434,8 +436,57 @@ about you, we'd like to ask you about your sleep habits.</string>
                     <view key="view" contentMode="scaleToFill" id="MuA-Lb-AdB">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="starsBackground" id="Hsl-Pn-9bG">
+                                <rect key="frame" x="-265" y="-21" width="958" height="968"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" preferredBehavioralStyle="pad" translatesAutoresizingMaskIntoConstraints="NO" id="kTW-v4-urR">
+                                <rect key="frame" x="18" y="198" width="393" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.91372555489999996" green="0.91372549530000002" blue="0.91372555489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="titleShadowOffset" width="1" height="5"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="the importance of sleep" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                    <directionalEdgeInsets key="contentInsets" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="importanceOfSleep:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="fvR-bH-65R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c80-l3-nhY">
+                                <rect key="frame" x="18" y="477" width="393" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Tips for better sleep" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="betterSleepTips:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="HiY-UI-aFf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="select a topic to learn about!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LJJ-SZ-w3f">
+                                <rect key="frame" x="-30" y="44" width="438" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQ0-dT-6go">
+                                <rect key="frame" x="15" y="332" width="393" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="How to fall asleep faster" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="fallAsleepFaster:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="ESN-Ei-Jcw"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Sx0-oQ-LJQ"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="F80-ha-rgQ"/>
                 </viewController>
@@ -450,6 +501,30 @@ about you, we'd like to ask you about your sleep habits.</string>
                     <view key="view" contentMode="scaleToFill" id="YNY-99-hMm">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Practice" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiz-YJ-muS">
+                                <rect key="frame" x="193" y="127" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pAs-3d-Gwo">
+                                <rect key="frame" x="138" y="264" width="152" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Breathing Exercises"/>
+                                <connections>
+                                    <segue destination="ugp-Ic-YXQ" kind="show" id="2BU-A0-ZIV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzK-g2-yMh">
+                                <rect key="frame" x="163" y="357" width="102" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="White Noise"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Gyk-dg-uWc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -457,6 +532,22 @@ about you, we'd like to ask you about your sleep habits.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwz-Yw-hs3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2900" y="1743"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ae6-L3-oyO">
+            <objects>
+                <viewController id="ugp-Ic-YXQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uue-gs-nfd">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XnG-sI-BaU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AhJ-Bf-60x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lsO-dv-DGj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3694" y="1750"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="8Vr-AM-a4e">
@@ -519,7 +610,6 @@ you're one step closer to beginning your sleep journey!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Tw4-MB-bbB"/>
         <segue reference="wdX-2P-4GT"/>
     </inferredMetricsTieBreakers>
     <resources>

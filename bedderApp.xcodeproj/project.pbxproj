@@ -25,6 +25,7 @@
 		211C64192859126800F1C301 /* AdditionalResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */; };
 		211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641A2859129800F1C301 /* PracticeViewController.swift */; };
 		211C641D285912F800F1C301 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641C285912F800F1C301 /* TrackViewController.swift */; };
+		211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641E2859A43E00F1C301 /* homeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalResourcesViewController.swift; sourceTree = "<group>"; };
 		211C641A2859129800F1C301 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
 		211C641C285912F800F1C301 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		211C641E2859A43E00F1C301 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		211C63CD2859024E00F1C301 = {
 			isa = PBXGroup;
 			children = (
+				211C641E2859A43E00F1C301 /* homeViewController.swift */,
 				211C63D82859024F00F1C301 /* bedderApp */,
 				211C63F22859025000F1C301 /* bedderAppTests */,
 				211C63FC2859025100F1C301 /* bedderAppUITests */,
@@ -288,6 +291,7 @@
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
 				211C63DE2859024F00F1C301 /* ViewController.swift in Sources */,
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
+				211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */,
 				211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */,
 				211C641D285912F800F1C301 /* TrackViewController.swift in Sources */,
 				211C641328590B0900F1C301 /* FourthViewController.swift in Sources */,

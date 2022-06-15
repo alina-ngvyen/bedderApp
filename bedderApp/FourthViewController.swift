@@ -11,9 +11,13 @@ class FourthViewController: UIViewController {
 
     @IBOutlet weak var userRecommendation: UILabel!
     
+    var userName = String()
+    
+    userRecommendation.text = "congratulations \(userName), you're one step closer to beginning your sleep journey!"
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        userRecommendation.text = userName
         // Do any additional setup after loading the view.
     }
     

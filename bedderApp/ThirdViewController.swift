@@ -12,6 +12,11 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var nameInput: UITextField!
     @IBOutlet weak var ageInput: UITextField!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        var fourthController = segue.destination as! FourthViewController
+        fourthController.userName = variable1
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

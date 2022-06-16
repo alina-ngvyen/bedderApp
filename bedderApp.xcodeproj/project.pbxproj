@@ -24,8 +24,9 @@
 		211C64172859120D00F1C301 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C64162859120D00F1C301 /* PlanViewController.swift */; };
 		211C64192859126800F1C301 /* AdditionalResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */; };
 		211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641A2859129800F1C301 /* PracticeViewController.swift */; };
-		211C641D285912F800F1C301 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641C285912F800F1C301 /* TrackViewController.swift */; };
 		211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641E2859A43E00F1C301 /* homeViewController.swift */; };
+		21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21804C18285AE4CD00B33027 /* AddViewController.swift */; };
+		21804C1B285AE7B000B33027 /* trackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21804C1A285AE7B000B33027 /* trackTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,8 +68,9 @@
 		211C64162859120D00F1C301 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
 		211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalResourcesViewController.swift; sourceTree = "<group>"; };
 		211C641A2859129800F1C301 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
-		211C641C285912F800F1C301 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		211C641E2859A43E00F1C301 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		21804C18285AE4CD00B33027 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		21804C1A285AE7B000B33027 /* trackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +129,11 @@
 				211C641028590A2800F1C301 /* ThirdViewController.swift */,
 				211C641228590B0900F1C301 /* FourthViewController.swift */,
 				211C63DF2859024F00F1C301 /* Main.storyboard */,
+				21804C18285AE4CD00B33027 /* AddViewController.swift */,
 				211C6414285911EA00F1C301 /* LearnViewController.swift */,
-				211C641C285912F800F1C301 /* TrackViewController.swift */,
 				211C64162859120D00F1C301 /* PlanViewController.swift */,
 				211C641A2859129800F1C301 /* PracticeViewController.swift */,
+				21804C1A285AE7B000B33027 /* trackTableViewController.swift */,
 				211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */,
 				211C63E52859025000F1C301 /* Assets.xcassets */,
 				211C63E72859025000F1C301 /* LaunchScreen.storyboard */,
@@ -293,7 +296,7 @@
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
 				211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */,
 				211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */,
-				211C641D285912F800F1C301 /* TrackViewController.swift in Sources */,
+				21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */,
 				211C641328590B0900F1C301 /* FourthViewController.swift in Sources */,
 				211C640F2859081700F1C301 /* SecondViewController.swift in Sources */,
 				211C6415285911EA00F1C301 /* LearnViewController.swift in Sources */,
@@ -301,6 +304,7 @@
 				211C64192859126800F1C301 /* AdditionalResourcesViewController.swift in Sources */,
 				211C63DC2859024F00F1C301 /* SceneDelegate.swift in Sources */,
 				211C64172859120D00F1C301 /* PlanViewController.swift in Sources */,
+				21804C1B285AE7B000B33027 /* trackTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

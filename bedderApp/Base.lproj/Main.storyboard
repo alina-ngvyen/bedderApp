@@ -71,7 +71,7 @@ my name's orion. you can call me o!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19.626168224299064" y="83.585313174946009"/>
+            <point key="canvasLocation" x="219" y="-428"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="bVK-1o-1Qv">
@@ -119,7 +119,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wrf-Dh-gAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="930.841121495327" y="83.585313174946009"/>
+            <point key="canvasLocation" x="1130" y="-428"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="1B2-rc-WAQ">
@@ -190,7 +190,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="edg-PC-SMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="oA7-Co-pdK" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1753.7383177570093" y="83.585313174946009"/>
+            <point key="canvasLocation" x="1953" y="-428"/>
         </scene>
         <!--Learn View Controller-->
         <scene sceneID="Kdf-Ss-sLk">
@@ -247,8 +247,8 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <action selector="fallAsleepFaster:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="WYh-Ct-pPu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cK-GX-ZnA">
-                                <rect key="frame" x="308" y="11" width="120" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cK-GX-ZnA">
+                                <rect key="frame" x="288" y="17" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -267,7 +267,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ulT-v2-8FW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="522.89719626168221" y="950.53995680345577"/>
+            <point key="canvasLocation" x="-1700" y="121"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="eb5-hM-GPj">
@@ -399,17 +399,31 @@ about you, we'd like to ask you about your sleep habits.</string>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Daily Sleep Data Tracker" id="jpw-je-ulC">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Mza-aA-GpA">
-                            <color key="tintColor" systemColor="labelColor"/>
-                            <connections>
-                                <segue destination="a37-8j-E9L" kind="show" id="jLX-S4-ifl"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem style="plain" id="kw9-a4-Piw">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jRM-vP-fpk">
+                                    <rect key="frame" x="330.33333333333331" y="0.0" width="77.666666666666686" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="" imagePadding="0.0">
+                                        <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                        <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </buttonConfiguration>
+                                </button>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="Mza-aA-GpA">
+                                <color key="tintColor" systemColor="labelColor"/>
+                                <connections>
+                                    <segue destination="a37-8j-E9L" kind="show" id="jLX-S4-ifl"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OdT-z5-sU3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3923.8317757009345" y="938.8768898488122"/>
+            <point key="canvasLocation" x="4894" y="121"/>
         </scene>
         <!--Add Sleep Data-->
         <scene sceneID="Y4K-vM-wPG">
@@ -499,7 +513,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXq-n1-Q5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4613.5514018691583" y="938.8768898488122"/>
+            <point key="canvasLocation" x="5769" y="121"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="169-4N-dod">
@@ -514,7 +528,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XjI-g1-GGO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5309" y="939"/>
+            <point key="canvasLocation" x="6464" y="121"/>
         </scene>
         <!--Plan View Controller-->
         <scene sceneID="zde-jk-dHl">
@@ -705,8 +719,8 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEm-GC-lD2">
-                                <rect key="frame" x="302" y="20" width="120" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEm-GC-lD2">
+                                <rect key="frame" x="288" y="20" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="">
@@ -743,7 +757,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ai3-EQ-gBD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="361.68224299065417" y="1742.9805615550756"/>
+            <point key="canvasLocation" x="1234" y="1727"/>
         </scene>
         <!--Additional Resources View Controller-->
         <scene sceneID="mTR-Vz-9jd">
@@ -799,19 +813,6 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <action selector="fallAsleepFaster:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="ESN-Ei-Jcw"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nvg-iI-dOD">
-                                <rect key="frame" x="308" y="9" width="120" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="">
-                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
-                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
-                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="2dH-l8-fZn"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c80-l3-nhY">
                                 <rect key="frame" x="58" y="577" width="313" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -825,6 +826,19 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <action selector="betterSleepTips:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="HiY-UI-aFf"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nvg-iI-dOD">
+                                <rect key="frame" x="288" y="18" width="120" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="2dH-l8-fZn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Sx0-oQ-LJQ"/>
                         <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -833,7 +847,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lx0-wi-qb9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1558.8785046728972" y="1742.9805615550756"/>
+            <point key="canvasLocation" x="1928" y="1727"/>
         </scene>
         <!--Practice View Controller-->
         <scene sceneID="dDh-Xw-8Q4">
@@ -872,7 +886,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gwz-Yw-hs3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2900" y="1743"/>
+            <point key="canvasLocation" x="4894" y="1518"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Ae6-L3-oyO">
@@ -888,7 +902,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lsO-dv-DGj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3695" y="1743"/>
+            <point key="canvasLocation" x="5616" y="1518"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="8Vr-AM-a4e">
@@ -947,7 +961,7 @@ you're one step closer to beginning your sleep journey!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzj-hc-WBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2700" y="83.585313174946009"/>
+            <point key="canvasLocation" x="2899" y="-428"/>
         </scene>
         <!--Track Navigation Controller-->
         <scene sceneID="uob-jI-UTQ">
@@ -966,7 +980,7 @@ you're one step closer to beginning your sleep journey!</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oh0-uX-eQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3023.8317757009345" y="938.8768898488122"/>
+            <point key="canvasLocation" x="4894" y="121"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

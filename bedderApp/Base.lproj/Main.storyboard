@@ -286,13 +286,6 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <rect key="frame" x="-265" y="-48" width="958" height="968"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="select a topic to learn about!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23B-45-NpT">
-                                <rect key="frame" x="-5" y="77" width="438" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cK-GX-ZnA">
                                 <rect key="frame" x="288" y="17" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -307,12 +300,12 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNt-qA-4Ds">
-                                <rect key="frame" x="18" y="237" width="393" height="100"/>
+                                <rect key="frame" x="41" y="304" width="346" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="the science behind sleep" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                     <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -322,12 +315,14 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQ3-sY-Rt6">
-                                <rect key="frame" x="18" y="618" width="393" height="100"/>
+                                <rect key="frame" x="45" y="568" width="342" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="things you can do to sleep better" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                <buttonConfiguration key="configuration" style="filled" cornerStyle="capsule">
+                                    <string key="title">things you can do
+  to sleep better</string>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                     <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -336,12 +331,12 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iec-yh-8SJ">
-                                <rect key="frame" x="18" y="431" width="393" height="100"/>
+                                <rect key="frame" x="45" y="436" width="342" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="why is sleep important" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                     <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -349,6 +344,13 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <action selector="sleepAndBrain:" destination="Fmo-1J-yzr" eventType="touchUpInside" id="2qG-tH-ZOQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="select a topic to learn about!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23B-45-NpT">
+                                <rect key="frame" x="0.0" y="226" width="438" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="25"/>
+                                <color key="textColor" red="0.60515941390000005" green="0.74323253700000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="g8g-wy-XHV"/>
                         <color key="backgroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -356,7 +358,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ulT-v2-8FW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1700" y="121"/>
+            <point key="canvasLocation" x="-1700.467289719626" y="120.5183585313175"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="eb5-hM-GPj">
@@ -459,14 +461,14 @@ about you, we'd like to ask you about your sleep habits.</string>
             </objects>
             <point key="canvasLocation" x="1558.8785046728972" y="938.8768898488122"/>
         </scene>
-        <!--Daily Sleep Data Tracker-->
+        <!--Track Table View Controller-->
         <scene sceneID="H8p-G3-rFi">
             <objects>
                 <tableViewController id="RON-yT-bbe" customClass="trackTableViewController" customModule="bedderApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="NiF-wQ-bWi">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="872"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="sectionIndexColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="sectionIndexBackgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <color key="sectionIndexTrackingBackgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -478,6 +480,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <rect key="frame" x="0.0" y="0.0" width="428" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -485,32 +488,21 @@ about you, we'd like to ask you about your sleep habits.</string>
                             <outlet property="delegate" destination="RON-yT-bbe" id="QbR-RY-gpH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Daily Sleep Data Tracker" prompt="swipe down to exit" id="jpw-je-ulC">
-                        <rightBarButtonItems>
-                            <barButtonItem style="plain" id="kw9-a4-Piw">
-                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="jRM-vP-fpk">
-                                    <rect key="frame" x="330.33333333333331" y="40" width="77.666666666666686" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <state key="normal" title="Button"/>
-                                    <buttonConfiguration key="configuration" style="plain" title="" imagePadding="0.0">
-                                        <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
-                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
-                                        <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </buttonConfiguration>
-                                </button>
-                            </barButtonItem>
-                            <barButtonItem systemItem="add" id="Mza-aA-GpA">
-                                <color key="tintColor" systemColor="labelColor"/>
-                                <connections>
-                                    <segue destination="a37-8j-E9L" kind="show" id="jLX-S4-ifl"/>
-                                </connections>
-                            </barButtonItem>
-                        </rightBarButtonItems>
+                    <navigationItem key="navigationItem" id="jpw-je-ulC">
+                        <barButtonItem key="leftBarButtonItem" title="saved sleep data" id="XW1-wI-cKp">
+                            <color key="tintColor" red="0.91372555489999996" green="0.91372549530000002" blue="0.91372555489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="Mza-aA-GpA">
+                            <color key="tintColor" red="0.91372555489999996" green="0.91372549530000002" blue="0.91372555489999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="a37-8j-E9L" kind="show" id="jLX-S4-ifl"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OdT-z5-sU3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4894" y="121"/>
+            <point key="canvasLocation" x="4894" y="172"/>
         </scene>
         <!--Add Sleep Data-->
         <scene sceneID="Y4K-vM-wPG">
@@ -600,7 +592,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXq-n1-Q5w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5769" y="121"/>
+            <point key="canvasLocation" x="5616" y="172"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="169-4N-dod">
@@ -615,7 +607,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XjI-g1-GGO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6464" y="121"/>
+            <point key="canvasLocation" x="6331" y="172"/>
         </scene>
         <!--Plan View Controller-->
         <scene sceneID="zde-jk-dHl">
@@ -1219,7 +1211,7 @@ continue to breathe in through your nose and slowly exhale.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpC-em-WDW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6462.6168224299063" y="1516.8466522678186"/>
+            <point key="canvasLocation" x="6331" y="1517"/>
         </scene>
         <!--Exercise3 View Controller-->
         <scene sceneID="3z9-Nb-6ir">
@@ -1418,7 +1410,7 @@ breathe out through your mouth while counting to 8.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2x-1a-lFZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6462.6168224299063" y="839.74082073434136"/>
+            <point key="canvasLocation" x="6331" y="840"/>
         </scene>
         <!--Fourth View Controller-->
         <scene sceneID="8Vr-AM-a4e">
@@ -1496,7 +1488,7 @@ you're one step closer to beginning your sleep journey!</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oh0-uX-eQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4894" y="121"/>
+            <point key="canvasLocation" x="4894" y="840"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1514,9 +1506,6 @@ you're one step closer to beginning your sleep journey!</string>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="scienceOrion" width="1620" height="2160"/>
         <image name="starsBackground" width="360" height="576"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

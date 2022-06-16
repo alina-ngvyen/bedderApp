@@ -13,7 +13,6 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         self.navigationItem.setHidesBackButton(true, animated: false)
         self.navigationController?.isNavigationBarHidden = true
-
     }
 
 }

@@ -25,7 +25,8 @@ class PracticeViewController: UIViewController {
     
 }
     @IBAction func whiteNoise(_ sender: Any) {
-    playSound() }
+        playSound()
+    }
     
     func playSound() {
            let url = Bundle.main.url(forResource: "10_min_white_noise_for_stress_(getmp3.pro)", withExtension: "mp3")

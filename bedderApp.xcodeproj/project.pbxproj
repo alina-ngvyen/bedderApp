@@ -27,6 +27,10 @@
 		211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641E2859A43E00F1C301 /* homeViewController.swift */; };
 		21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21804C18285AE4CD00B33027 /* AddViewController.swift */; };
 		21804C1B285AE7B000B33027 /* trackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21804C1A285AE7B000B33027 /* trackTableViewController.swift */; };
+		218E456D285B87F200D397BF /* breathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E456C285B87F200D397BF /* breathingViewController.swift */; };
+		218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E456E285B898300D397BF /* exercise1ViewController.swift */; };
+		218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4570285B899500D397BF /* exercise2ViewController.swift */; };
+		218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4572285B89A600D397BF /* exercise3ViewController.swift */; };
 		BDA399CD285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +76,10 @@
 		211C641E2859A43E00F1C301 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		21804C18285AE4CD00B33027 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		21804C1A285AE7B000B33027 /* trackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackTableViewController.swift; sourceTree = "<group>"; };
+		218E456C285B87F200D397BF /* breathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = breathingViewController.swift; sourceTree = "<group>"; };
+		218E456E285B898300D397BF /* exercise1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise1ViewController.swift; sourceTree = "<group>"; };
+		218E4570285B899500D397BF /* exercise2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise2ViewController.swift; sourceTree = "<group>"; };
+		218E4572285B89A600D397BF /* exercise3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise3ViewController.swift; sourceTree = "<group>"; };
 		BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10_min_white_noise_for_stress_(getmp3.pro).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,19 +131,23 @@
 		211C63D82859024F00F1C301 /* bedderApp */ = {
 			isa = PBXGroup;
 			children = (
-				211C641E2859A43E00F1C301 /* homeViewController.swift */,
 				211C63D92859024F00F1C301 /* AppDelegate.swift */,
 				211C63DB2859024F00F1C301 /* SceneDelegate.swift */,
 				211C63DD2859024F00F1C301 /* ViewController.swift */,
+				211C63DF2859024F00F1C301 /* Main.storyboard */,
 				211C640E2859081700F1C301 /* SecondViewController.swift */,
 				211C641028590A2800F1C301 /* ThirdViewController.swift */,
 				211C641228590B0900F1C301 /* FourthViewController.swift */,
-				211C63DF2859024F00F1C301 /* Main.storyboard */,
-				21804C18285AE4CD00B33027 /* AddViewController.swift */,
+				211C641E2859A43E00F1C301 /* homeViewController.swift */,
 				211C6414285911EA00F1C301 /* LearnViewController.swift */,
+				21804C1A285AE7B000B33027 /* trackTableViewController.swift */,
+				21804C18285AE4CD00B33027 /* AddViewController.swift */,
 				211C64162859120D00F1C301 /* PlanViewController.swift */,
 				211C641A2859129800F1C301 /* PracticeViewController.swift */,
-				21804C1A285AE7B000B33027 /* trackTableViewController.swift */,
+				218E456C285B87F200D397BF /* breathingViewController.swift */,
+				218E456E285B898300D397BF /* exercise1ViewController.swift */,
+				218E4570285B899500D397BF /* exercise2ViewController.swift */,
+				218E4572285B89A600D397BF /* exercise3ViewController.swift */,
 				211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */,
 				BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */,
 				211C63E52859025000F1C301 /* Assets.xcassets */,
@@ -295,10 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */,
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
+				218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */,
+				218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */,
 				211C63DE2859024F00F1C301 /* ViewController.swift in Sources */,
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
 				211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */,
+				218E456D285B87F200D397BF /* breathingViewController.swift in Sources */,
 				211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */,
 				21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */,
 				211C641328590B0900F1C301 /* FourthViewController.swift in Sources */,

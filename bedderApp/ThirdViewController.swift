@@ -26,13 +26,17 @@ class ThirdViewController: UIViewController {
         }
 
     @IBAction func ageEntered(_ sender: Any) {
-        var sleepH = "7-9"
-        if ageInput >= 65{
-            sleepH = "7-8"
-            else if ageInput "
+    }
+        /* var sleepH = "7-9"
+        if ageInput <= 2 {
+            sleepH = "11-14"
+            else if ageInput {
+                
+            }
         }
         
         sleepRec.text = "did you know that you should be sleeping \(sleepH) hours each night?"    }
+         */
     
     override func viewDidLoad() {
         super.viewDidLoad()

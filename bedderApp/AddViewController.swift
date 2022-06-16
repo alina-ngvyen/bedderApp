@@ -11,7 +11,6 @@ import Foundation
 class AddViewController: UIViewController
 {
     @IBOutlet weak var dateTextField: UITextField!
-    @IBOutlet weak var bedtimeSelector: UIDatePicker!
     
     var previousVC = trackTableViewController()
     

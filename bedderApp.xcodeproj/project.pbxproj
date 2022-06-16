@@ -32,6 +32,7 @@
 		218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4570285B899500D397BF /* exercise2ViewController.swift */; };
 		218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4572285B89A600D397BF /* exercise3ViewController.swift */; };
 		BDA399CD285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */; };
+		C7778404285BA6C900BC2C9E /* scienceBehindSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		218E4570285B899500D397BF /* exercise2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise2ViewController.swift; sourceTree = "<group>"; };
 		218E4572285B89A600D397BF /* exercise3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise3ViewController.swift; sourceTree = "<group>"; };
 		BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10_min_white_noise_for_stress_(getmp3.pro).mp3"; sourceTree = "<group>"; };
+		C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceBehindSleepViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 				211C63E72859025000F1C301 /* LaunchScreen.storyboard */,
 				211C63EA2859025000F1C301 /* Info.plist */,
 				211C63E22859024F00F1C301 /* bedderApp.xcdatamodeld */,
+				C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */,
 			);
 			path = bedderApp;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7778404285BA6C900BC2C9E /* scienceBehindSleepViewController.swift in Sources */,
 				218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */,
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
 				218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */,

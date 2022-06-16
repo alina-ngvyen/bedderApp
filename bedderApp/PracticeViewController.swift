@@ -10,6 +10,7 @@ import AVFoundation
 class PracticeViewController: UIViewController {
 
     var player: AVAudioPlayer!
+    var isPlaying = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,8 +30,16 @@ class PracticeViewController: UIViewController {
     }
     
     func playSound() {
-           let url = Bundle.main.url(forResource: "10_min_white_noise_for_stress_(getmp3.pro)", withExtension: "mp3")
+        if(isPlaying == false){
+           let url = Bundle.main.url(forResource:  "10_min_white_noise_for_stress_(getmp3.pro)", withExtension: "mp3")
            player = try! AVAudioPlayer(contentsOf: url!)
            player.play()
+            isPlaying = true
+        }
+        else{
+            player.stop()
+            isPlaying = false
+        }
+        
         }
 }

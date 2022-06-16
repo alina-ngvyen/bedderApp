@@ -27,6 +27,7 @@
 		211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641E2859A43E00F1C301 /* homeViewController.swift */; };
 		21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21804C18285AE4CD00B33027 /* AddViewController.swift */; };
 		21804C1B285AE7B000B33027 /* trackTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21804C1A285AE7B000B33027 /* trackTableViewController.swift */; };
+		BDA399CD285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		211C641E2859A43E00F1C301 /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		21804C18285AE4CD00B33027 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		21804C1A285AE7B000B33027 /* trackTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackTableViewController.swift; sourceTree = "<group>"; };
+		BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10_min_white_noise_for_stress_(getmp3.pro).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				211C641A2859129800F1C301 /* PracticeViewController.swift */,
 				21804C1A285AE7B000B33027 /* trackTableViewController.swift */,
 				211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */,
+				BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */,
 				211C63E52859025000F1C301 /* Assets.xcassets */,
 				211C63E72859025000F1C301 /* LaunchScreen.storyboard */,
 				211C63EA2859025000F1C301 /* Info.plist */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				211C63E92859025000F1C301 /* LaunchScreen.storyboard in Resources */,
+				BDA399CD285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 in Resources */,
 				211C63E62859025000F1C301 /* Assets.xcassets in Resources */,
 				211C63E12859024F00F1C301 /* Main.storyboard in Resources */,
 			);

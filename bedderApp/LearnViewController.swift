@@ -15,15 +15,15 @@ class LearnViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    @IBAction func importanceOfSleep(_ sender: Any) {
-        let googleURL = URL(string: "https://sph.umich.edu/pursuit/2020posts/why-sleep-is-so-important-to-your-health.html")
+    @IBAction func sleepAndBrain(_ sender: Any) {
+        let googleURL = URL(string: "https://www.forbes.com/sites/alicegwalton/2016/12/09/7-ways-sleep-affects-the-brain-and-what-happens-if-it-doesnt-get-enough/?sh=61c40488753c")
         UIApplication.shared.open(googleURL!)
     }
-    @IBAction func fallAsleepFaster(_ sender: Any) {
-        let googleURL = URL(string: "https://www.healthline.com/nutrition/ways-to-fall-asleep#3.-Get-on-a-schedule")
+    @IBAction func thingsToDoDuringDay(_ sender: Any) {
+        let googleURL = URL(string: "https://www.webmd.com/sleep-disorders/features/daytime-habits")
         UIApplication.shared.open(googleURL!)
     }
-    @IBAction func betterSleepTips(_ sender: Any) {
+    @IBAction func tipsToImplement(_ sender: Any) {
         let googleURL = URL(string: "https://www.healthline.com/nutrition/17-tips-to-sleep-better#Food-Fix:-Foods-for-Better-Sleep")
         UIApplication.shared.open(googleURL!)
     }

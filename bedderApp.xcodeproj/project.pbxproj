@@ -41,6 +41,7 @@
 		C7C4D9D4285C589800539F7B /* bodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D3285C589800539F7B /* bodyViewController.swift */; };
 		C7C4D9D6285C58B100539F7B /* mindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D5285C58B100539F7B /* mindViewController.swift */; };
 		C7C4D9D8285C5D8100539F7B /* importanceFinalScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D7285C5D8100539F7B /* importanceFinalScreenViewController.swift */; };
+		C7C4D9DA285CC5BE00539F7B /* finalScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D9285CC5BE00539F7B /* finalScienceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		C7C4D9D3285C589800539F7B /* bodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyViewController.swift; sourceTree = "<group>"; };
 		C7C4D9D5285C58B100539F7B /* mindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindViewController.swift; sourceTree = "<group>"; };
 		C7C4D9D7285C5D8100539F7B /* importanceFinalScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importanceFinalScreenViewController.swift; sourceTree = "<group>"; };
+		C7C4D9D9285CC5BE00539F7B /* finalScienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalScienceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				C7C4D9D3285C589800539F7B /* bodyViewController.swift */,
 				C7C4D9D5285C58B100539F7B /* mindViewController.swift */,
 				C7C4D9D7285C5D8100539F7B /* importanceFinalScreenViewController.swift */,
+				C7C4D9D9285CC5BE00539F7B /* finalScienceViewController.swift */,
 			);
 			path = bedderApp;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
 				C7778410285C46E500BC2C9E /* SleepImportance3ViewController.swift in Sources */,
 				211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */,
+				C7C4D9DA285CC5BE00539F7B /* finalScienceViewController.swift in Sources */,
 				218E456D285B87F200D397BF /* breathingViewController.swift in Sources */,
 				211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */,
 				21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */,

@@ -10,6 +10,7 @@ import UIKit
 class remSleepViewController: UIViewController {
     @IBOutlet weak var remOutlet: UIButton!
     @IBOutlet weak var nonRemOutlet: UIButton!
+    @IBOutlet weak var nextOutlet: UIButton!
     
     @IBOutlet weak var twoTypesText: UILabel!
     @IBOutlet weak var remText: UILabel!
@@ -61,6 +62,17 @@ class remSleepViewController: UIViewController {
             remOutlet.isHidden=false
         }
     }
+    
+    
+    @IBAction func nextButton(_ sender: Any) {
+        if(remText.isHidden==false) || (nonRemText.isHidden==false){
+            nextOutlet.isHidden=true
+        }
+        else if(nonRemText.isHidden==true) || (remText.isHidden==true){
+            nextOutlet.isHidden=false
+        }
+    }
+    
     
     /*
     // MARK: - Navigation

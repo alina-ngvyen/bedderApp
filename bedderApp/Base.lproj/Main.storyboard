@@ -550,7 +550,7 @@ Research shows this stage is essential in keeping our brains sharp and it is fou
                                     <segue destination="5pV-7g-Gcb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="90F-7I-OFT"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi! Let me teach you about the facsinating science behind sleep! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMI-TF-N9B">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi! Let me teach you about the fascinating science behind sleep! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMI-TF-N9B">
                                 <rect key="frame" x="63" y="96" width="303" height="268"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
@@ -2248,10 +2248,10 @@ you're one step closer to beginning your sleep journey!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="wCT-A9-WkY"/>
-        <segue reference="DEe-nJ-n6X"/>
+        <segue reference="wZk-nL-YG0"/>
         <segue reference="UMZ-7g-gW0"/>
         <segue reference="BPG-UR-sE2"/>
-        <segue reference="otL-ed-wtI"/>
+        <segue reference="bnb-JP-LkR"/>
         <segue reference="3IA-z1-0XG"/>
         <segue reference="yVN-1y-Zkv"/>
         <segue reference="90F-7I-OFT"/>

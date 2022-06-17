@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -435,7 +434,7 @@ Research shows this stage is essential in keeping our brains sharp and it is fou
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mzn-XM-q5v">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.29999999999999999" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="mzn-XM-q5v">
                                 <rect key="frame" x="-100" y="-91" width="611" height="1104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -453,19 +452,12 @@ Research shows this stage is essential in keeping our brains sharp and it is fou
                                     <segue destination="jXc-8E-WGU" kind="presentation" modalPresentationStyle="fullScreen" id="yVN-1y-Zkv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thanks for learning with me! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9s-hH-50a">
-                                <rect key="frame" x="72" y="128" width="285" height="171"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="scienceOrion" translatesAutoresizingMaskIntoConstraints="NO" id="11G-ga-lOI">
                                 <rect key="frame" x="53" y="347" width="323" height="637"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CmM-Xc-iis">
-                                <rect key="frame" x="113" y="383" width="181" height="48"/>
+                                <rect key="frame" x="91" y="381" width="228" height="69"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -488,14 +480,21 @@ Research shows this stage is essential in keeping our brains sharp and it is fou
                                     <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thanks for learning with me! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R9s-hH-50a">
+                                <rect key="frame" x="63" y="143" width="285" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MwF-WO-O7D"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Een-Si-Pgi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="537" y="-2559"/>
+            <point key="canvasLocation" x="536.91588785046724" y="-2559.3952483801299"/>
         </scene>
         <!--Science Behind Sleep View Controller-->
         <scene sceneID="5b1-1E-Jc7">
@@ -2274,8 +2273,5 @@ you're one step closer to beginning your sleep journey!</string>
         <image name="sleeping" width="1620" height="2160"/>
         <image name="sleepyOrion" width="1620" height="2160"/>
         <image name="starsBackground" width="360" height="576"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

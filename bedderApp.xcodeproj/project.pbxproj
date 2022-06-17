@@ -37,6 +37,10 @@
 		C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778409285C1D5200BC2C9E /* remSleepViewController.swift */; };
 		C777840C285C3C8000BC2C9E /* SleepImportance1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C777840B285C3C8000BC2C9E /* SleepImportance1ViewController.swift */; };
 		C777840E285C3E3500BC2C9E /* sleepImportance2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C777840D285C3E3500BC2C9E /* sleepImportance2ViewController.swift */; };
+		C7778410285C46E500BC2C9E /* SleepImportance3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C777840F285C46E500BC2C9E /* SleepImportance3ViewController.swift */; };
+		C7C4D9D4285C589800539F7B /* bodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D3285C589800539F7B /* bodyViewController.swift */; };
+		C7C4D9D6285C58B100539F7B /* mindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D5285C58B100539F7B /* mindViewController.swift */; };
+		C7C4D9D8285C5D8100539F7B /* importanceFinalScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7C4D9D7285C5D8100539F7B /* importanceFinalScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,10 @@
 		C7778409285C1D5200BC2C9E /* remSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remSleepViewController.swift; sourceTree = "<group>"; };
 		C777840B285C3C8000BC2C9E /* SleepImportance1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepImportance1ViewController.swift; sourceTree = "<group>"; };
 		C777840D285C3E3500BC2C9E /* sleepImportance2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepImportance2ViewController.swift; sourceTree = "<group>"; };
+		C777840F285C46E500BC2C9E /* SleepImportance3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepImportance3ViewController.swift; sourceTree = "<group>"; };
+		C7C4D9D3285C589800539F7B /* bodyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bodyViewController.swift; sourceTree = "<group>"; };
+		C7C4D9D5285C58B100539F7B /* mindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mindViewController.swift; sourceTree = "<group>"; };
+		C7C4D9D7285C5D8100539F7B /* importanceFinalScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = importanceFinalScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +177,10 @@
 				C7778409285C1D5200BC2C9E /* remSleepViewController.swift */,
 				C777840B285C3C8000BC2C9E /* SleepImportance1ViewController.swift */,
 				C777840D285C3E3500BC2C9E /* sleepImportance2ViewController.swift */,
+				C777840F285C46E500BC2C9E /* SleepImportance3ViewController.swift */,
+				C7C4D9D3285C589800539F7B /* bodyViewController.swift */,
+				C7C4D9D5285C58B100539F7B /* mindViewController.swift */,
+				C7C4D9D7285C5D8100539F7B /* importanceFinalScreenViewController.swift */,
 			);
 			path = bedderApp;
 			sourceTree = "<group>";
@@ -326,14 +338,17 @@
 				218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */,
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
 				C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */,
+				C7C4D9D4285C589800539F7B /* bodyViewController.swift in Sources */,
 				C777840C285C3C8000BC2C9E /* SleepImportance1ViewController.swift in Sources */,
 				C7778406285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift in Sources */,
 				218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */,
 				C7778408285C143300BC2C9E /* LearnViewController.swift in Sources */,
 				C777840E285C3E3500BC2C9E /* sleepImportance2ViewController.swift in Sources */,
+				C7C4D9D6285C58B100539F7B /* mindViewController.swift in Sources */,
 				218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */,
 				211C63DE2859024F00F1C301 /* ViewController.swift in Sources */,
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
+				C7778410285C46E500BC2C9E /* SleepImportance3ViewController.swift in Sources */,
 				211C641F2859A43E00F1C301 /* homeViewController.swift in Sources */,
 				218E456D285B87F200D397BF /* breathingViewController.swift in Sources */,
 				211C63DA2859024F00F1C301 /* AppDelegate.swift in Sources */,
@@ -341,6 +356,7 @@
 				211C641328590B0900F1C301 /* FourthViewController.swift in Sources */,
 				211C640F2859081700F1C301 /* SecondViewController.swift in Sources */,
 				211C641128590A2800F1C301 /* ThirdViewController.swift in Sources */,
+				C7C4D9D8285C5D8100539F7B /* importanceFinalScreenViewController.swift in Sources */,
 				211C64192859126800F1C301 /* AdditionalResourcesViewController.swift in Sources */,
 				211C63DC2859024F00F1C301 /* SceneDelegate.swift in Sources */,
 				211C64172859120D00F1C301 /* PlanViewController.swift in Sources */,

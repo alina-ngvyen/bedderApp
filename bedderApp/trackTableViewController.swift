@@ -14,9 +14,9 @@ class trackTableViewController: UITableViewController
         
     override func viewDidLoad()
     {
-        super.viewDidLoad()
+            super.viewDidLoad()
     }
-        
+    
     func getData()
     {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext
@@ -48,6 +48,9 @@ class trackTableViewController: UITableViewController
             if let userDate = data.userDate
             {
                 cell.textLabel?.text = userDate
+                cell.textLabel?.textColor = UIColor.white
+                cell.backgroundColor = UIColor(red: 0.60, green: 0.74, blue: 0.99, alpha: 1.00)
+                cell.layer.cornerRadius = 10
             }
               return cell
         }
@@ -55,16 +58,15 @@ class trackTableViewController: UITableViewController
         override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath)
         {
             let data = dailySleepData[indexPath.row]
-            
         }
 
         override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
         {
             return dailySleepData.count
         }
-        
+    
         override func viewWillAppear(_ animated:Bool)
-        {
-            getData()
-        }
-    }
+            {
+                getData()
+            }
+}

@@ -30,6 +30,8 @@
 		218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E456E285B898300D397BF /* exercise1ViewController.swift */; };
 		218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4570285B899500D397BF /* exercise2ViewController.swift */; };
 		218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4572285B89A600D397BF /* exercise3ViewController.swift */; };
+		21CA9575285CB8F6008DC955 /* REMTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CA9574285CB8F6008DC955 /* REMTypeViewController.swift */; };
+		21CA9577285CB909008DC955 /* NonREMTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CA9576285CB909008DC955 /* NonREMTypeViewController.swift */; };
 		BDA399CD285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */; };
 		C7778404285BA6C900BC2C9E /* scienceBehindSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */; };
 		C7778406285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */; };
@@ -88,6 +90,8 @@
 		218E456E285B898300D397BF /* exercise1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise1ViewController.swift; sourceTree = "<group>"; };
 		218E4570285B899500D397BF /* exercise2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise2ViewController.swift; sourceTree = "<group>"; };
 		218E4572285B89A600D397BF /* exercise3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise3ViewController.swift; sourceTree = "<group>"; };
+		21CA9574285CB8F6008DC955 /* REMTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REMTypeViewController.swift; sourceTree = "<group>"; };
+		21CA9576285CB909008DC955 /* NonREMTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonREMTypeViewController.swift; sourceTree = "<group>"; };
 		BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10_min_white_noise_for_stress_(getmp3.pro).mp3"; sourceTree = "<group>"; };
 		C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceBehindSleepViewController.swift; sourceTree = "<group>"; };
 		C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceBehindpage2ViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +133,8 @@
 		211C63CD2859024E00F1C301 = {
 			isa = PBXGroup;
 			children = (
+				21CA9574285CB8F6008DC955 /* REMTypeViewController.swift */,
+				21CA9576285CB909008DC955 /* NonREMTypeViewController.swift */,
 				211C63D82859024F00F1C301 /* bedderApp */,
 				211C63F22859025000F1C301 /* bedderAppTests */,
 				211C63FC2859025100F1C301 /* bedderAppUITests */,
@@ -335,8 +341,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7778404285BA6C900BC2C9E /* scienceBehindSleepViewController.swift in Sources */,
+				21CA9577285CB909008DC955 /* NonREMTypeViewController.swift in Sources */,
 				218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */,
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
+				21CA9575285CB8F6008DC955 /* REMTypeViewController.swift in Sources */,
 				C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */,
 				C7C4D9D4285C589800539F7B /* bodyViewController.swift in Sources */,
 				C777840C285C3C8000BC2C9E /* SleepImportance1ViewController.swift in Sources */,

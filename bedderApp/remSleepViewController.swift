@@ -8,11 +8,15 @@
 import UIKit
 
 class remSleepViewController: UIViewController {
-
+    @IBOutlet weak var remOutlet: UIButton!
+    
+    @IBOutlet weak var nonRemOutlet: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         remText.isHidden = true
         nonRemText.isHidden = true
+       
 
         // Do any additional setup after loading the view.
     }
@@ -26,19 +30,36 @@ class remSleepViewController: UIViewController {
             remText.isHidden=true}
         else{
             remText.isHidden=false
-            //remButton.isHidden=true
+            remOutlet.isHidden=true
+            nonRemOutlet.isHidden=true
         }
     }
-    
     
     @IBAction func nonRemButton(_ sender: Any) {
         if(nonRemText.isHidden==false){
             nonRemText.isHidden=true}
         else{
             nonRemText.isHidden=false
-            //nonRemButton.isHidden=true
+            nonRemOutlet.isHidden=true
+            remOutlet.isHidden=true
+           
         }
     }
+    
+    
+    @IBAction func backButton(_ sender: Any) {
+        if(remText.isHidden==false){
+            remText.isHidden=true
+            nonRemOutlet.isHidden=false
+            remOutlet.isHidden=false
+        }
+        if(nonRemText.isHidden==false){
+            nonRemText.isHidden=true
+            nonRemOutlet.isHidden=false
+            remOutlet.isHidden=false
+        }
+    }
+    
     /*
     // MARK: - Navigation
 

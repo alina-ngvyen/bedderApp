@@ -35,6 +35,8 @@
 		C7778406285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */; };
 		C7778408285C143300BC2C9E /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778407285C143300BC2C9E /* LearnViewController.swift */; };
 		C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778409285C1D5200BC2C9E /* remSleepViewController.swift */; };
+		C777840C285C3C8000BC2C9E /* SleepImportance1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C777840B285C3C8000BC2C9E /* SleepImportance1ViewController.swift */; };
+		C777840E285C3E3500BC2C9E /* sleepImportance2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C777840D285C3E3500BC2C9E /* sleepImportance2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,8 @@
 		C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceBehindpage2ViewController.swift; sourceTree = "<group>"; };
 		C7778407285C143300BC2C9E /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		C7778409285C1D5200BC2C9E /* remSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remSleepViewController.swift; sourceTree = "<group>"; };
+		C777840B285C3C8000BC2C9E /* SleepImportance1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepImportance1ViewController.swift; sourceTree = "<group>"; };
+		C777840D285C3E3500BC2C9E /* sleepImportance2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sleepImportance2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 				C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */,
 				C7778407285C143300BC2C9E /* LearnViewController.swift */,
 				C7778409285C1D5200BC2C9E /* remSleepViewController.swift */,
+				C777840B285C3C8000BC2C9E /* SleepImportance1ViewController.swift */,
+				C777840D285C3E3500BC2C9E /* sleepImportance2ViewController.swift */,
 			);
 			path = bedderApp;
 			sourceTree = "<group>";
@@ -320,9 +326,11 @@
 				218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */,
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
 				C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */,
+				C777840C285C3C8000BC2C9E /* SleepImportance1ViewController.swift in Sources */,
 				C7778406285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift in Sources */,
 				218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */,
 				C7778408285C143300BC2C9E /* LearnViewController.swift in Sources */,
+				C777840E285C3E3500BC2C9E /* sleepImportance2ViewController.swift in Sources */,
 				218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */,
 				211C63DE2859024F00F1C301 /* ViewController.swift in Sources */,
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,

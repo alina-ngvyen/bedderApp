@@ -71,7 +71,7 @@ my name's orion. you can call me o!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="219" y="-428"/>
+            <point key="canvasLocation" x="-2814" y="687"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="bVK-1o-1Qv">
@@ -119,7 +119,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wrf-Dh-gAw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1130" y="-428"/>
+            <point key="canvasLocation" x="-1710" y="687"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="1B2-rc-WAQ">
@@ -201,7 +201,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="edg-PC-SMp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="oA7-Co-pdK" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1952.8037383177568" y="-428.29373650107993"/>
+            <point key="canvasLocation" x="-606" y="687"/>
         </scene>
         <!--Science Behindpage2 View Controller-->
         <scene sceneID="cNU-YZ-7bn">
@@ -212,28 +212,59 @@ about you, we'd like to ask you about your sleep habits.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.34999999999999998" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="ldx-6w-zpi">
-                                <rect key="frame" x="-100" y="-137" width="613" height="1174"/>
+                                <rect key="frame" x="-108" y="-124" width="613" height="1174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9p2-UJ-jzW">
+                                <rect key="frame" x="-98" y="-114" width="506" height="345"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="XAt-fq-pwt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zEk-Qg-tx4">
+                                <rect key="frame" x="-73" y="-135" width="278" height="366"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.96862745289999996" green="0.92156863209999995" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="pMV-51-gT0"/>
+                                    <segue destination="O5j-d5-RUx" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="p13-n1-dTl"/>
+                                </connections>
+                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="scienceOrion" translatesAutoresizingMaskIntoConstraints="NO" id="8zr-UF-sv6">
-                                <rect key="frame" x="-18" y="428" width="249" height="669"/>
+                                <rect key="frame" x="0.0" y="415" width="249" height="669"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Puy-4R-uD2">
-                                <rect key="frame" x="27" y="206" width="374" height="316"/>
+                                <rect key="frame" x="27" y="151" width="374" height="316"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Many believe sleep is a passive, dormant state, but in actuality, sleep is a period during which the brain is engaged in a number of activities necessary to life— which are closely linked to quality of life. </string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8U7-7f-UnZ">
-                                <rect key="frame" x="172" y="560" width="52" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrn-Hp-QyB">
+                                <rect key="frame" x="152" y="498" width="125" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="next"/>
+                                <buttonConfiguration key="configuration" style="filled" title="next">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="jXc-8E-WGU" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="OJi-OB-Neb"/>
+                                    <segue destination="jXc-8E-WGU" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="dJ6-H6-Oib"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -243,7 +274,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WVu-r1-BM5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-536.91588785046724" y="-1686.6090712742982"/>
+            <point key="canvasLocation" x="-857.94392523364479" y="-2294.3844492440608"/>
         </scene>
         <!--Rem Sleep View Controller-->
         <scene sceneID="H8L-FY-KBz">
@@ -257,6 +288,20 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <rect key="frame" x="-123" y="-143" width="629" height="1264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ra8-Oa-IMm">
+                                <rect key="frame" x="-113" y="-133" width="321" height="348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.96862745289999996" green="0.92156863209999995" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="IGT-1t-jBc"/>
+                                    <segue destination="5pV-7g-Gcb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="NoI-JX-2xn"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There are 2 different types of sleep: REM and Non REM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tvv-aH-ypW">
                                 <rect key="frame" x="31" y="87" width="366" height="93"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -267,9 +312,11 @@ about you, we'd like to ask you about your sleep habits.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sed-rT-yN9">
                                 <rect key="frame" x="132" y="309" width="165" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="REM">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="36"/>
+                                <buttonConfiguration key="configuration" style="filled" title="REM" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                    <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="remButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="SvK-tW-dge"/>
@@ -278,9 +325,11 @@ about you, we'd like to ask you about your sleep habits.</string>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ol-pP-l3h">
                                 <rect key="frame" x="132" y="627" width="165" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Non rem">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="36"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Non rem" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="36"/>
+                                    <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="nonRemButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="zaX-F4-v1g"/>
@@ -289,41 +338,69 @@ about you, we'd like to ask you about your sleep habits.</string>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-kj-2kE">
                                 <rect key="frame" x="31" y="213" width="366" height="634"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">During REM, most muscles experience temporary paralysis, the eyes move rapidly behind closed lids, and brain waves are similar to those during wakefulness. This is also the stage during which people experience dreams, and studies show brain activity is at its highest level at this time. Typically, the longest REM period occurs at the end of a night’s sleep and is cut short if a person does not get their full night of sleep.
+                                <string key="text">During REM, most muscles experience temporary paralysis, the eyes move rapidly behind closed lids, and brain waves are similar to those during wakefulness. This is also the stage during which people experience dreams, and studies show brain activity is at its highest level at this time. Typically, the longest REM period occurs at the end of a night’s sleep and is cut short if a person does not get their full night of sleep.
 Research shows this stage is essential in keeping our brains sharp and it is found that not only does an increase in REM improve depression, anxiety and cognitive brain function, it also decreases blood pressure and provides other overall health benefits.   
  
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNd-H1-wBs">
-                                <rect key="frame" x="41" y="223" width="366" height="634"/>
+                                <rect key="frame" x="20" y="188" width="366" height="634"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Non-REM sleep uses significantly less energy than REM sleep, and is divided into 3 stages.
+                                <string key="text">Non-REM sleep uses significantly less energy than REM sleep, and is divided into 3 stages.
 Stage 1
 This stage lasts about 5 to 10 minutes and is the transition period between wakefulness and sleep. The muscles in the body remain active and a person in this stage can be easily awoken. 
 Stage 2
 A period of light sleep with slowing brain waves and muscle relaxation. It is the period between drowsiness and light sleep and deep slow wave sleep.  
 Stage 3
 This  slow-wave sleep assists the body to repair and regenerate tissues, and recent studies suggest this is also the stage when the brain flushes out toxic waste.  
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djh-gR-Zqj">
+                                <rect key="frame" x="0.0" y="820" width="129" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="go back">
+                                    <imageReference key="image" image="moon" catalog="system" symbolScale="default"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="IGb-yR-zWZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eel-vR-IL4">
+                                <rect key="frame" x="288" y="0.0" width="120" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="Toj-3Y-Toe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dZ7-1s-fDE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
+                        <outlet property="nonRemOutlet" destination="2ol-pP-l3h" id="CPU-yd-xdb"/>
                         <outlet property="nonRemText" destination="DNd-H1-wBs" id="5po-Ma-l5q"/>
+                        <outlet property="remOutlet" destination="Sed-rT-yN9" id="MjT-WI-RMj"/>
                         <outlet property="remText" destination="2fF-kj-2kE" id="cwR-QF-A04"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k3p-2H-N0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="175.23364485981307" y="-1672.354211663067"/>
+            <point key="canvasLocation" x="-157.00934579439252" y="-2294.3844492440608"/>
         </scene>
         <!--Science Behind Sleep View Controller-->
         <scene sceneID="5b1-1E-Jc7">
@@ -338,21 +415,44 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="scienceOrion" translatesAutoresizingMaskIntoConstraints="NO" id="aiX-71-Bb3">
-                                <rect key="frame" x="0.0" y="44" width="435" height="1102"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJV-cv-soS">
+                                <rect key="frame" x="288" y="8" width="120" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="wZk-nL-YG0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fch-tp-o0J">
+                                <rect key="frame" x="20" y="18" width="110" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.96862745289999996" green="0.92156863209999995" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="iI2-U6-zhJ"/>
+                                    <segue destination="tkr-Ws-TOF" kind="presentation" modalPresentationStyle="fullScreen" id="bnb-JP-LkR"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hjK-RS-09J">
-                                <rect key="frame" x="170" y="394" width="54" height="37"/>
+                                <rect key="frame" x="176" y="359" width="77" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="GO">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="5pV-7g-Gcb" kind="presentation" modalPresentationStyle="fullScreen" id="90F-7I-OFT"/>
+                                    <segue destination="5pV-7g-Gcb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="90F-7I-OFT"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hi! Let me teach you about the facsinating science behind sleep! " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMI-TF-N9B">
@@ -362,6 +462,10 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="scienceOrion" translatesAutoresizingMaskIntoConstraints="NO" id="aiX-71-Bb3">
+                                <rect key="frame" x="3" y="44" width="435" height="1102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Z4h-ug-Lw2"/>
                         <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -370,7 +474,7 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l5J-f7-uYp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1291" y="-1686"/>
+            <point key="canvasLocation" x="-1621" y="-2294"/>
         </scene>
         <!--Learn View Controller-->
         <scene sceneID="GZr-7c-yAk">
@@ -386,28 +490,19 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                                 <color key="backgroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" red="0.71879490710000005" green="0.89561511800000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InO-5L-xHb">
-                                <rect key="frame" x="47" y="272" width="347" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="the science behind sleep" cornerStyle="capsule">
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
-                                    <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="O5j-d5-RUx" kind="presentation" modalPresentationStyle="fullScreen" id="3IA-z1-0XG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="syy-N9-l5P">
-                                <rect key="frame" x="53" y="463" width="341" height="75"/>
+                                <rect key="frame" x="44" y="463" width="341" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="why is sleep important?" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
                                     <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="3gh-eM-nVz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="BPG-UR-sE2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BnA-pt-0yw">
                                 <rect key="frame" x="41" y="654" width="364" height="75"/>
@@ -417,6 +512,7 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                                 <buttonConfiguration key="configuration" style="filled" title="things you can do to sleep  better" cornerStyle="capsule">
                                     <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
                                     <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose a topic to learn about!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aia-FX-WSH">
@@ -426,6 +522,20 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="InO-5L-xHb">
+                                <rect key="frame" x="38" y="267" width="347" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="the science behind sleep" cornerStyle="capsule">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
+                                    <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="O5j-d5-RUx" kind="presentation" modalPresentationStyle="fullScreen" id="3IA-z1-0XG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7A8-fV-lJh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -434,6 +544,150 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hwx-fo-jgW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2093" y="-1278"/>
+        </scene>
+        <!--Sleep Importance1 View Controller-->
+        <scene sceneID="ba3-yl-pot">
+            <objects>
+                <viewController id="3gh-eM-nVz" customClass="SleepImportance1ViewController" customModule="bedderApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="alm-YB-FB3">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Q0t-VA-NiP">
+                                <rect key="frame" x="-69" y="-157" width="625" height="1308"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUf-wM-vCD">
+                                <rect key="frame" x="340" y="-9" width="68" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="R6S-uo-iWl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DHt-VO-MIO">
+                                <rect key="frame" x="-104" y="-194" width="341" height="473"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.96862745289999996" green="0.92156863209999995" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="jil-ux-PiE"/>
+                                    <segue destination="tkr-Ws-TOF" kind="presentation" modalPresentationStyle="fullScreen" id="hp2-Eg-633"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="sleepyOrion" translatesAutoresizingMaskIntoConstraints="NO" id="huV-3B-ltf">
+                                <rect key="frame" x="-104" y="287" width="623" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBq-lT-sXk">
+                                <rect key="frame" x="27" y="102" width="375" height="268"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hello there, lets talk about the importance of sleep! Sorry for the bed head, I didn't get much sleep last night.. I guess I should take my own advice!</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="28"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZ1-df-O93">
+                                <rect key="frame" x="155" y="378" width="104" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GO">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="03k-PM-SyV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="wxt-YT-TaM"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oYp-50-jRY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LF7-a1-zPi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1141.1214953271028" y="-1278.4017278617712"/>
+        </scene>
+        <!--Sleep Importance2 View Controller-->
+        <scene sceneID="8KF-AT-VtR">
+            <objects>
+                <viewController id="03k-PM-SyV" customClass="sleepImportance2ViewController" customModule="bedderApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="deF-4E-nQC">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Pne-1u-Mpo">
+                                <rect key="frame" x="-76" y="-129" width="601" height="1207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bx5-6u-Bst">
+                                <rect key="frame" x="-111" y="-189" width="341" height="473"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="back">
+                                    <imageReference key="image" image="arrow.backward" catalog="system" symbolScale="default"/>
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                    <color key="baseForegroundColor" red="0.96862745289999996" green="0.92156863209999995" blue="0.48627454040000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="p3Q-JA-sOK"/>
+                                    <segue destination="3gh-eM-nVz" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="NA3-IK-wAq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="sleepyOrion" translatesAutoresizingMaskIntoConstraints="NO" id="HC6-B7-yqW">
+                                <rect key="frame" x="-122" y="534" width="482" height="433"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjC-md-Mwp">
+                                <rect key="frame" x="20" y="139" width="388" height="397"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Sleep is essential to every process in the body, affecting our physical and mental functioning the next day, our ability to fight disease and develop immunity, and our metabolism and chronic disease risk. Sleep is truly interdisciplinary because it touches every aspect of health.
+</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WRB-rG-iA8">
+                                <rect key="frame" x="152" y="511" width="125" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="next">
+                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                    <color key="baseForegroundColor" red="0.086274504660000001" green="0.1647058874" blue="0.40784314269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHe-fH-ieB">
+                                <rect key="frame" x="337" y="0.0" width="71" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="homekit" catalog="system" symbolScale="large"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                    <color key="baseForegroundColor" red="0.97056835890000004" green="0.92218422889999996" blue="0.48617804050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="W5a-pr-cVr" kind="presentation" modalPresentationStyle="fullScreen" id="tOd-rP-4Cw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dvF-4q-fcz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P6b-9C-OQu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266.35514018691589" y="-1248.5961123110153"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="eb5-hM-GPj">
@@ -534,7 +788,7 @@ This  slow-wave sleep assists the body to repair and regenerate tissues, and rec
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3pl-oj-w94" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1558.8785046728972" y="938.8768898488122"/>
+            <point key="canvasLocation" x="729" y="687"/>
         </scene>
         <!--Daily Sleep Data Tracker-->
         <scene sceneID="H8p-G3-rFi">
@@ -1545,7 +1799,7 @@ you're one step closer to beginning your sleep journey!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bzj-hc-WBf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2899" y="-428"/>
+            <point key="canvasLocation" x="-1318" y="-374"/>
         </scene>
         <!--Track Navigation Controller-->
         <scene sceneID="uob-jI-UTQ">
@@ -1569,18 +1823,25 @@ you're one step closer to beginning your sleep journey!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="lAt-uP-724"/>
-        <segue reference="Nfs-Cq-tKR"/>
+        <segue reference="tOd-rP-4Cw"/>
+        <segue reference="NA3-IK-wAq"/>
+        <segue reference="hp2-Eg-633"/>
+        <segue reference="3IA-z1-0XG"/>
+        <segue reference="90F-7I-OFT"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="checkmark" catalog="system" width="128" height="114"/>
         <image name="hand.point.down.fill" catalog="system" width="111" height="128"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
+        <image name="moon" catalog="system" width="128" height="121"/>
         <image name="orionPose1" width="1170" height="2532"/>
         <image name="orionPose2" width="1170" height="2532"/>
         <image name="orionPose3" width="1170" height="2532"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="scienceOrion" width="1620" height="2160"/>
+        <image name="sleepyOrion" width="1620" height="2160"/>
         <image name="starsBackground" width="360" height="576"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

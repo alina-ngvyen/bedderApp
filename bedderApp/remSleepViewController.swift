@@ -9,8 +9,11 @@ import UIKit
 
 class remSleepViewController: UIViewController {
     @IBOutlet weak var remOutlet: UIButton!
-    
     @IBOutlet weak var nonRemOutlet: UIButton!
+    
+    @IBOutlet weak var twoTypesText: UILabel!
+    @IBOutlet weak var remText: UILabel!
+    @IBOutlet weak var nonRemText: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +24,12 @@ class remSleepViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBOutlet weak var remText: UILabel!
-    
-    @IBOutlet weak var nonRemText: UILabel!
+
     
     @IBAction func remButton(_ sender: Any) {
         if(remText.isHidden==false){
             remText.isHidden=true}
+        
         else{
             remText.isHidden=false
             remOutlet.isHidden=true

@@ -292,13 +292,6 @@ about you, we'd like to ask you about your sleep habits.</string>
                                 <rect key="frame" x="-123" y="-143" width="629" height="1264"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There are 2 different types of sleep: REM and Non REM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tvv-aH-ypW">
-                                <rect key="frame" x="72" y="267" width="285" height="122"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sed-rT-yN9">
                                 <rect key="frame" x="73" y="408" width="282" height="110"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -310,8 +303,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="remButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="SvK-tW-dge"/>
-                                    <segue destination="BNV-dQ-K6c" kind="presentation" modalPresentationStyle="fullScreen" id="Y8p-v5-y4f"/>
+                                    <action selector="remButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="gOW-wA-Ap7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ol-pP-l3h">
@@ -325,8 +317,7 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <color key="baseBackgroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nonRemButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="zaX-F4-v1g"/>
-                                    <segue destination="Ias-Ur-DFz" kind="presentation" modalPresentationStyle="fullScreen" id="YAV-z9-CgM"/>
+                                    <action selector="nonRemButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="88P-aU-fCR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eel-vR-IL4">
@@ -356,35 +347,23 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <segue destination="5pV-7g-Gcb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="NoI-JX-2xn"/>
                                 </connections>
                             </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="dZ7-1s-fDE"/>
-                        <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <connections>
-                        <outlet property="nonRemOutlet" destination="2ol-pP-l3h" id="CPU-yd-xdb"/>
-                        <outlet property="nonRemText" destination="DNd-H1-wBs" id="5po-Ma-l5q"/>
-                        <outlet property="remOutlet" destination="Sed-rT-yN9" id="MjT-WI-RMj"/>
-                        <outlet property="remText" destination="2fF-kj-2kE" id="cwR-QF-A04"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="k3p-2H-N0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-294" y="-2559"/>
-        </scene>
-        <!--NonREM Type View Controller-->
-        <scene sceneID="dkE-dD-atX">
-            <objects>
-                <viewController id="Ias-Ur-DFz" customClass="NonREMTypeViewController" customModule="bedderApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="x8A-7M-dUv">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Tnh-M0-tIM">
-                                <rect key="frame" x="-101" y="-196" width="629" height="1264"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNd-H1-wBs">
+                                <rect key="frame" x="49" y="144" width="353" height="748"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <string key="text">Non-REM sleep uses significantly less energy than REM sleep, and is divided into 3 stages.
+Stage 1
+This stage lasts about 5 to 10 minutes and is the transition period between wakefulness and sleep. The muscles in the body remain active and a person in this stage can be easily awoken. 
+Stage 2
+A period of light sleep with slowing brain waves and muscle relaxation. It is the period between drowsiness and light sleep and deep slow wave sleep.  
+Stage 3
+This  slow-wave sleep assists the body to repair and regenerate tissues, and recent studies suggest this is also the stage when the brain flushes out toxic waste.  
+</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfd-oh-PWQ">
-                                <rect key="frame" x="150" y="727" width="129" height="92"/>
+                                <rect key="frame" x="150" y="800" width="129" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=" go back">
@@ -397,75 +376,39 @@ about you, we'd like to ask you about your sleep habits.</string>
                                     <segue destination="jXc-8E-WGU" kind="presentation" modalPresentationStyle="fullScreen" id="pa0-SO-8qx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNd-H1-wBs">
-                                <rect key="frame" x="38" y="44" width="353" height="748"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <string key="text">Non-REM sleep uses significantly less energy than REM sleep, and is divided into 3 stages.
-Stage 1
-This stage lasts about 5 to 10 minutes and is the transition period between wakefulness and sleep. The muscles in the body remain active and a person in this stage can be easily awoken. 
-Stage 2
-A period of light sleep with slowing brain waves and muscle relaxation. It is the period between drowsiness and light sleep and deep slow wave sleep.  
-Stage 3
-This  slow-wave sleep assists the body to repair and regenerate tissues, and recent studies suggest this is also the stage when the brain flushes out toxic waste.  
-</string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="1iJ-1g-TdL"/>
-                        <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1kR-8M-iJd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-294.39252336448595" y="-1886.1771058315337"/>
-        </scene>
-        <!--Type View Controller-->
-        <scene sceneID="gJ4-kL-Qz6">
-            <objects>
-                <viewController id="BNV-dQ-K6c" customClass="REMTypeViewController" customModule="bedderApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="zFN-7X-BPY">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="scaleAspectFit" fixedFrame="YES" image="starsBackground" translatesAutoresizingMaskIntoConstraints="NO" id="akJ-LE-Pef">
-                                <rect key="frame" x="-101" y="-196" width="629" height="1264"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dtl-uA-bEc">
-                                <rect key="frame" x="149" y="738" width="129" height="92"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title=" go back">
-                                    <imageReference key="image" image="moon" catalog="system" symbolScale="default"/>
-                                    <fontDescription key="titleFontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
-                                    <color key="baseForegroundColor" red="0.60784316059999999" green="0.74509805439999999" blue="0.98039215800000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="backButton:" destination="jXc-8E-WGU" eventType="touchUpInside" id="MIg-eD-sjP"/>
-                                    <segue destination="jXc-8E-WGU" kind="presentation" modalPresentationStyle="fullScreen" id="zuc-UA-YE1"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="24" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fF-kj-2kE">
-                                <rect key="frame" x="36" y="52" width="356" height="822"/>
+                                <rect key="frame" x="47" y="159" width="356" height="743"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">During REM, most muscles experience temporary paralysis, the eyes move rapidly behind closed lids, and brain waves are similar to those during wakefulness. This is also the stage during which people experience dreams, and studies show brain activity is at its highest level at this time. Typically, the longest REM period occurs at the end of a night’s sleep and is cut short if a person does not get their full night of sleep.
 Research shows this stage is essential in keeping our brains sharp and it is found that not only does an increase in REM improve depression, anxiety and cognitive brain function, it also decreases blood pressure and provides other overall health benefits.   
  
 </string>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There are 2 different types of sleep: REM and Non REM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tvv-aH-ypW">
+                                <rect key="frame" x="72" y="113" width="285" height="122"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="27"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="Q8r-Yg-hfL"/>
+                        <viewLayoutGuide key="safeArea" id="dZ7-1s-fDE"/>
                         <color key="backgroundColor" red="0.088063679640000003" green="0.16608631609999999" blue="0.40786498789999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <connections>
+                        <outlet property="nonRemOutlet" destination="2ol-pP-l3h" id="CPU-yd-xdb"/>
+                        <outlet property="nonRemText" destination="DNd-H1-wBs" id="5po-Ma-l5q"/>
+                        <outlet property="remOutlet" destination="Sed-rT-yN9" id="MjT-WI-RMj"/>
+                        <outlet property="remText" destination="2fF-kj-2kE" id="cwR-QF-A04"/>
+                        <outlet property="twoTypesText" destination="Tvv-aH-ypW" id="sgg-rq-hNb"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oNK-6i-WeE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k3p-2H-N0z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-294.39252336448595" y="-3233.2613390928727"/>
+            <point key="canvasLocation" x="-294.39252336448595" y="-2559.3952483801299"/>
         </scene>
         <!--Science Behind Sleep View Controller-->
         <scene sceneID="5b1-1E-Jc7">
@@ -2219,12 +2162,11 @@ you're one step closer to beginning your sleep journey!</string>
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="wCT-A9-WkY"/>
-        <segue reference="wZk-nL-YG0"/>
+        <segue reference="Toj-3Y-Toe"/>
         <segue reference="UMZ-7g-gW0"/>
         <segue reference="BPG-UR-sE2"/>
         <segue reference="IAr-0X-Ro3"/>
         <segue reference="3IA-z1-0XG"/>
-        <segue reference="zuc-UA-YE1"/>
         <segue reference="NoI-JX-2xn"/>
     </inferredMetricsTieBreakers>
     <resources>

@@ -1,5 +1,5 @@
 //
-//  LearnViewController.swift
+//  scienceBehindpage2ViewController.swift
 //  bedderApp
 //
 //  Created by Anshika Agrawal on 6/16/22.
@@ -7,15 +7,17 @@
 
 import UIKit
 
-class LearnViewController: UIViewController {
+class scienceBehindpage2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+    
     }
     
-
+   
+    
     /*
     // MARK: - Navigation
 

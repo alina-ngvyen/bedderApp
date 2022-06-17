@@ -20,7 +20,6 @@
 		211C640F2859081700F1C301 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C640E2859081700F1C301 /* SecondViewController.swift */; };
 		211C641128590A2800F1C301 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641028590A2800F1C301 /* ThirdViewController.swift */; };
 		211C641328590B0900F1C301 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641228590B0900F1C301 /* FourthViewController.swift */; };
-		211C6415285911EA00F1C301 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C6414285911EA00F1C301 /* LearnViewController.swift */; };
 		211C64172859120D00F1C301 /* PlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C64162859120D00F1C301 /* PlanViewController.swift */; };
 		211C64192859126800F1C301 /* AdditionalResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */; };
 		211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C641A2859129800F1C301 /* PracticeViewController.swift */; };
@@ -33,6 +32,9 @@
 		218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218E4572285B89A600D397BF /* exercise3ViewController.swift */; };
 		BDA399CD285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */; };
 		C7778404285BA6C900BC2C9E /* scienceBehindSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */; };
+		C7778406285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */; };
+		C7778408285C143300BC2C9E /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778407285C143300BC2C9E /* LearnViewController.swift */; };
+		C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7778409285C1D5200BC2C9E /* remSleepViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +72,6 @@
 		211C640E2859081700F1C301 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		211C641028590A2800F1C301 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		211C641228590B0900F1C301 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		211C6414285911EA00F1C301 /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
 		211C64162859120D00F1C301 /* PlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewController.swift; sourceTree = "<group>"; };
 		211C64182859126800F1C301 /* AdditionalResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalResourcesViewController.swift; sourceTree = "<group>"; };
 		211C641A2859129800F1C301 /* PracticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +84,9 @@
 		218E4572285B89A600D397BF /* exercise3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exercise3ViewController.swift; sourceTree = "<group>"; };
 		BDA399CC285B75250072040C /* 10_min_white_noise_for_stress_(getmp3.pro).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10_min_white_noise_for_stress_(getmp3.pro).mp3"; sourceTree = "<group>"; };
 		C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceBehindSleepViewController.swift; sourceTree = "<group>"; };
+		C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scienceBehindpage2ViewController.swift; sourceTree = "<group>"; };
+		C7778407285C143300BC2C9E /* LearnViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnViewController.swift; sourceTree = "<group>"; };
+		C7778409285C1D5200BC2C9E /* remSleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = remSleepViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +145,6 @@
 				211C641028590A2800F1C301 /* ThirdViewController.swift */,
 				211C641228590B0900F1C301 /* FourthViewController.swift */,
 				211C641E2859A43E00F1C301 /* homeViewController.swift */,
-				211C6414285911EA00F1C301 /* LearnViewController.swift */,
 				21804C1A285AE7B000B33027 /* trackTableViewController.swift */,
 				21804C18285AE4CD00B33027 /* AddViewController.swift */,
 				211C64162859120D00F1C301 /* PlanViewController.swift */,
@@ -157,6 +160,9 @@
 				211C63EA2859025000F1C301 /* Info.plist */,
 				211C63E22859024F00F1C301 /* bedderApp.xcdatamodeld */,
 				C7778403285BA6C900BC2C9E /* scienceBehindSleepViewController.swift */,
+				C7778405285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift */,
+				C7778407285C143300BC2C9E /* LearnViewController.swift */,
+				C7778409285C1D5200BC2C9E /* remSleepViewController.swift */,
 			);
 			path = bedderApp;
 			sourceTree = "<group>";
@@ -313,7 +319,10 @@
 				C7778404285BA6C900BC2C9E /* scienceBehindSleepViewController.swift in Sources */,
 				218E456F285B898300D397BF /* exercise1ViewController.swift in Sources */,
 				211C641B2859129800F1C301 /* PracticeViewController.swift in Sources */,
+				C777840A285C1D5200BC2C9E /* remSleepViewController.swift in Sources */,
+				C7778406285BB28E00BC2C9E /* scienceBehindpage2ViewController.swift in Sources */,
 				218E4573285B89A600D397BF /* exercise3ViewController.swift in Sources */,
+				C7778408285C143300BC2C9E /* LearnViewController.swift in Sources */,
 				218E4571285B899500D397BF /* exercise2ViewController.swift in Sources */,
 				211C63DE2859024F00F1C301 /* ViewController.swift in Sources */,
 				211C63E42859024F00F1C301 /* bedderApp.xcdatamodeld in Sources */,
@@ -323,7 +332,6 @@
 				21804C19285AE4CD00B33027 /* AddViewController.swift in Sources */,
 				211C641328590B0900F1C301 /* FourthViewController.swift in Sources */,
 				211C640F2859081700F1C301 /* SecondViewController.swift in Sources */,
-				211C6415285911EA00F1C301 /* LearnViewController.swift in Sources */,
 				211C641128590A2800F1C301 /* ThirdViewController.swift in Sources */,
 				211C64192859126800F1C301 /* AdditionalResourcesViewController.swift in Sources */,
 				211C63DC2859024F00F1C301 /* SceneDelegate.swift in Sources */,
